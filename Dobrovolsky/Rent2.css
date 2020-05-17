@@ -1,0 +1,42 @@
+div { box-sizing: border-box;}
+header {
+        height: 125px;}
+.container {
+        width:1500px;
+        margin: 0 auto;}
+
+body {  background: URL(Backkk.jpg) no-repeat center top/ cover;
+        padding:0;
+        margin: 0;}
+.logo {margin-top: 20px;
+       float:left;}
+ nav{ 
+     float:right;
+     margin-top:40px} 
+ .menu .nav-link span:hover {
+    border-bottom: 2px solid #fff; }
+ 
+  .menu .active  .nav-link span {
+    color: #fff;
+}
+ .menu{
+      padding: 0;
+      margin: 0; 
+      display:block;}
+ .menu li {
+      float: left;
+      display:block;
+      margin-right: 30px}
+ .menu a{
+      color: OrangeRed;
+      text-shadow:black 0 0 2px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size:25px;
+      font-family:Arial ,sans-serif;}
+ 
+ .RentText {width:500px;
+            height:200px;
+            font-size:35px;
+            color:white;
+            border:solid 4px white;}

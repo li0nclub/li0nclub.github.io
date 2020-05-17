@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="win1251">
+    <title> LION Club</title>
+  </head>
+ <body background = "Back.png">
+    <h1><img src="leo.svg" height="45" weight="45"> ЛИОН </h1>
+    <p>
+     <a href="News.html">Новости</a>
+    </p>
+    
+ </body>
+</html>

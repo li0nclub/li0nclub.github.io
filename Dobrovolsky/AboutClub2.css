@@ -1,0 +1,78 @@
+ div { box-sizing: border-box;}
+header {
+        height: 125px;}
+.container {
+        width:1500px;
+        margin: 0 auto;}
+
+body {  background: URL(About.jpg) no-repeat center top/ cover;
+        padding:0;
+        margin: 0;}
+ .transition-fade {
+    transition: .4s;
+    opacity: 1;
+}
+html.is-animating .transition-fade{
+    opacity: 0;
+.logo {margin-top: 20px;
+       float:left;}
+ nav{ 
+     float:right;
+     margin-top:40px} 
+  .menu .nav-link span:hover {
+    border-bottom: 2px solid #fff; }
+ 
+  .menu .active  .nav-link span {
+    color: #fff;
+}
+ .menu{
+      padding: 0;
+      margin: 0; 
+      display:block;}
+ .menu li {
+      float: left;
+      display:block;
+      margin-right: 30px}
+ .menu a{
+      color: OrangeRed;
+      text-shadow:black 0 0 2px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size:25px;
+      font-family:Arial, sans-serif;}
+ 
+ .AboutClub {
+      padding: 20px;
+      outline: 1px solid #666;
+      background: #f0f0f0;
+      width:700px;
+      height:700px;
+     
+      float:left;
+      font-size: 26px;
+      margin-left:270px;
+      margin-top:30px;
+      font-family: Georgia,serif;}
+      
+ .Photo {
+ width:800px;
+ height:1000px;
+ float:right;
+ margin-right:90px;
+ margin-top:30px;}
+ 
+ .photo1 {margin-bottom:10px;}
+ .photo2 {margin-top:60px;
+          margin-bottom:10px;}
+ 
+ .Plan {
+ float:left;
+ width:800px;
+ height:800px;
+ margin-left:220px;
+ margin-top:50px;}
+ 
+ .plan_img {transition:width 0.5s ease;}
+}
+ 
+  .Plan:hover .plan_img{width:1300;}
